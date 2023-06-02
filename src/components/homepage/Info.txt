@@ -1,0 +1,22 @@
+Types of way to tranfer dataa from one compoent to another
+( passing value from one function to another )
+
+1.props -> transfer data from parent component to child compoent  (inmutable)
+2.Call back
+3.context Api
+4.Router/Routing
+5.Redux
+
+
+
+
+
+Assignment
+on click of button pass message to another
+form throught object 
+how to pass object as props
+
+## task
+Show Data in tables from input field
+Single use state run  PropsDemoOne
+practise  react-hook-form and yup 
