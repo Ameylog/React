@@ -30,6 +30,10 @@ function PropsDemoCheck() {
     }
     console.log(userList)
    
+    const deleteUser=(index)=>{
+        setUserList.splice(index,1)
+
+    }
 
     return (
         <div>
@@ -53,7 +57,7 @@ function DisplayDemo({ userList }) {
                 {userList.map((user,index)=>(
                     <div>
                         <li>{user.firstName +' '+user.lastName}</li>
-                        <button type='button' onClick={()=>deleteUser(index)}></button>
+                        <button type='button'  onClick={()=>deleteUser(index)}></button>
                     </div>
                     
                 ))}

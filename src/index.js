@@ -15,7 +15,10 @@ root.render(
     /* <PropsDemoCheck /> */
     /* <AddDeleteExample/> */
     
+
     <UseEffectDemo/>
+
+    // <App/>
   // </React.StrictMode>
 );
 

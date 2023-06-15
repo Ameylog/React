@@ -1,6 +1,7 @@
 Types of way to tranfer dataa from one compoent to another
 ( passing value from one function to another )
 
+
 1.props -> transfer data from parent component to child compoent  (inmutable)
 2.Call back
 3.context Api
