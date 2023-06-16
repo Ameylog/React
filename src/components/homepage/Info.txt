@@ -9,6 +9,8 @@ Types of way to tranfer dataa from one compoent to another
 5.Redux
 
 
+ContextApi -> Act as gloabal value and aceess by many component
+Two types  -> provider(parent component) and consumer(child component)
 
 
 
@@ -21,3 +23,6 @@ how to pass object as props
 Show Data in tables from input field
 Single use state run  PropsDemoOne
 practise  react-hook-form and yup 
+
+create contextapi and create many child component and update value in 
+one component show result in other componet

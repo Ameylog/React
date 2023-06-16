@@ -8,6 +8,7 @@ import AddDeleteExample from './components/homepage/AddDeleteExample';
 import CallbackEvent from './CallbackEvent';
 import LifeCycleMethods from './LifeCycleMethods';
 import UseEffectDemo from './UseEffectDemo';
+import ContextApi from './components/ContextApi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,7 @@ root.render(
     /* <AddDeleteExample/> */
     
 
-    <UseEffectDemo/>
+    <ContextApi/>
 
     // <App/>
   // </React.StrictMode>

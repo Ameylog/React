@@ -4,6 +4,17 @@ function UseEffectDemo(){
 
     const[number,setNumber]=React.useState(0)
 
+    const[userList,setUserlist]=React.useState([])
+
+    useEffect(()=>{
+        
+        fetch("https://jsonplaceholder.typicode.com/users")
+            .then((response)=>response.json())
+            .then((res)=>{
+                setUserlist(res)
+            })
+    },[])
+
     //case 1       [not equivalent to componentdidmount()  and Run infite times]
     // useEffect(()=>{
     //    setNumber(number+1)
@@ -17,9 +28,9 @@ function UseEffectDemo(){
     // },[])
 
     //case 3       [Equivalent to componentdidmount()  and componentdidupdate() ,[] -> dependency array with value]
-    useEffect(()=>{
-        console.log('UseEffect Executed!!!');
-    },[number])
+    // useEffect(()=>{
+    //     console.log('UseEffect Executed!!!');
+    // },[number])
 
     const handleChange=()=>{
         setNumber(number+1)
@@ -31,6 +42,13 @@ function UseEffectDemo(){
             <p>This is UseEffect Demo!!!</p>
             <p>Number is: {number}</p>
             <button type='button' onClick={handleChange}>Add</button>
+
+            <h2>UserList</h2>
+            <ul>
+                {userList.map((user)=>(
+                    <li>{user.name}</li>
+                ))}
+            </ul>
         </div>
     )
 }
