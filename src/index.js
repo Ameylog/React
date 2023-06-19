@@ -16,8 +16,10 @@ root.render(
     /* <PropsDemoCheck /> */
     /* <AddDeleteExample/> */
     
+    // <CallbackEvent/>
 
-    <ContextApi/>
+
+    <App/>
 
     // <App/>
   // </React.StrictMode>
