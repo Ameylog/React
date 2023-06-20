@@ -26,3 +26,10 @@ practise  react-hook-form and yup
 
 create contextapi and create many child component and update value in 
 one component show result in other componet
+
+
+Link
+
+userParam     --->  hooks
+useNavigate   --->
+useMemo

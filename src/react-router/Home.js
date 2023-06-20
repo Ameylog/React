@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Home(){
+function Home() {
 
-    return(
+    return (
         <div>
             <h2>Home</h2>
             <p>This is Home Compoent!!!</p>
+            
         </div>
     )
 }

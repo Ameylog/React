@@ -9,32 +9,36 @@ import Services from './react-router/Services';
 import Home from './react-router/Home';
 import About from './react-router/About';
 
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
+
+import { BrowserRouter,Routes, Route ,Link} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       {/* <Checkhushar/> */}
       {/* <ButtonOperation/> */}
-       {/* <HookForm/> */}
-
-    {/* <PropsDemoCheck/> */}
-    {/* <ButtonClickPrintDataIntoTable/> */}
+      {/* <HookForm/> */}
+      {/* <PropsDemoCheck/> */}
+      {/* <PropsDemoCheck/> */}
+      {/* <ButtonClickPrintDataIntoTable/> */}
     
+    
+
+    <BrowserRouter>
     <ul>
-       <li><a href="/home">Home</a></li>
-       <li><a href="/about">About</a></li>
-       <li><a href="/services">Services</a></li>
+       <li><Link to="/home">Home</Link></li>
+       <li><Link to="/about">About</Link></li>
+       <li><Link to="/services">Services</Link></li>
 
     </ul>
-
-<BrowserRouter>
       <Routes>
          <Route path="/home" element={<Home/>}/>
          <Route path="/about" element={<About/>}/>
          <Route path="/services" element={<Services/>}/>
       </Routes>
-</BrowserRouter>
+    </BrowserRouter>
+    
+
     
     </div>
   );
