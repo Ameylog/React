@@ -21,8 +21,6 @@ function App() {
       {/* <PropsDemoCheck/> */}
       {/* <PropsDemoCheck/> */}
       {/* <ButtonClickPrintDataIntoTable/> */}
-    
-    
 
     <BrowserRouter>
     <ul>
@@ -34,7 +32,7 @@ function App() {
       <Routes>
          <Route path="/home" element={<Home/>}/>
          <Route path="/about" element={<About/>}/>
-         <Route path="/services" element={<Services/>}/>
+         <Route path="/services/:message" element={<Services/>}/>
       </Routes>
     </BrowserRouter>
     
