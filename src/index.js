@@ -9,6 +9,7 @@ import CallbackEvent from './CallbackEvent';
 import LifeCycleMethods from './LifeCycleMethods';
 import UseEffectDemo from './UseEffectDemo';
 import ContextApi from './components/ContextApi';
+import ApiCall from './ApiCall';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,7 @@ root.render(
     // <CallbackEvent/>
 
 
-    <App/>
+    <ApiCall/>
 
     // <App/>
   // </React.StrictMode>

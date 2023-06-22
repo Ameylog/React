@@ -5,6 +5,7 @@ import HookForm from './components/homepage/HookForm'
 import ButtonClickPrintDataIntoTable from './components/homepage/ButtonClickPrintDataIntoTable'
 import Checkhushar from './components/homepage/Checkhushar';
 import PropsDemoCheck from './components/PropsDemoCheck';
+import PropsDemoOne from "./PropsDemoOne";
 import Services from './react-router/Services';
 import Home from './react-router/Home';
 import About from './react-router/About';
@@ -19,7 +20,7 @@ function App() {
       {/* <ButtonOperation/> */}
       {/* <HookForm/> */}
       {/* <PropsDemoCheck/> */}
-      {/* <PropsDemoCheck/> */}
+      {/* <PropsDemoOne/> */}
       {/* <ButtonClickPrintDataIntoTable/> */}
 
     <BrowserRouter>

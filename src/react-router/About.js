@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom'
 function About(){
 
     const location=useLocation()
-
     return(
         <div>
             <h2>About</h2>
@@ -16,3 +15,5 @@ function About(){
 }
 
 export default About 
+
+//npm install axios
