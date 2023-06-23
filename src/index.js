@@ -9,7 +9,9 @@ import CallbackEvent from './CallbackEvent';
 import LifeCycleMethods from './LifeCycleMethods';
 import UseEffectDemo from './UseEffectDemo';
 import ContextApi from './components/ContextApi';
-import ApiCall from './ApiCall';
+import ApiCall from './api-demo/ApiCall';
+import ApiPostData from './api-demo/ApiPostData';
+import ApiPut from './api-demo/ApiPut';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +22,9 @@ root.render(
     // <CallbackEvent/>
 
 
-    <ApiCall/>
+    // <ApiCall/>
+    <ApiPostData/>
+    // <ApiPut/>
 
     // <App/>
   // </React.StrictMode>

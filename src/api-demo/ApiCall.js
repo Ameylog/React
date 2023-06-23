@@ -5,8 +5,9 @@ function ApiCall(){
 
     const[users,setUsers]=React.useState([])
 
+   // https://jsonplaceholder.typicode.com/users
     useEffect(()=>{
-        axios.get("https://jsonplaceholder.typicode.com/users")
+        axios.get("http://localhost:8081/getUsers")
              .then((response)=>response.data)
              .then(res=>{
                 setUsers(res)
@@ -31,7 +32,7 @@ function ApiCall(){
             <h1>API CALL</h1>
             <ul>
                 {users.map((user)=>(
-                    <li>{user.name}</li>
+                    <li>UserName:- {user.userName} <br /> Password:- {user.password} </li>
                 ))}
             </ul>
 
