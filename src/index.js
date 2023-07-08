@@ -12,6 +12,7 @@ import ContextApi from './components/ContextApi';
 import ApiCall from './api-demo/ApiCall';
 import ApiPostData from './api-demo/ApiPostData';
 import ApiPut from './api-demo/ApiPut';
+import UseMemoDemo from './UseMemoDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,8 +23,8 @@ root.render(
     // <CallbackEvent/>
 
 
-    // <ApiCall/>
-    <ApiPostData/>
+    <UseMemoDemo/>
+    // <ApiPostData/>
     // <ApiPut/>
 
     // <App/>
