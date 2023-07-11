@@ -13,6 +13,7 @@ import ApiCall from './api-demo/ApiCall';
 import ApiPostData from './api-demo/ApiPostData';
 import ApiPut from './api-demo/ApiPut';
 import UseMemoDemo from './UseMemoDemo';
+import UseReducer from './UseReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,7 @@ root.render(
     // <CallbackEvent/>
 
 
-    <UseMemoDemo/>
+    <UseReducer/>
     // <ApiPostData/>
     // <ApiPut/>
 
